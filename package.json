@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copy build docs /Y",
+    "build": "react-scripts build && Xcopy build docs /Y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
