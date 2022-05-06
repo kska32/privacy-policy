@@ -2,8 +2,35 @@
   position: relative;
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   
+  padding: 20px 80px 100px;
+  max-width: 600px;
 
+
+  >h1{
+    color: red;
+  }
+
+  >p{
+    color: #53A1B3;
+    >div.title{
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    >div.content{
+        font-size: 1rem;
+        
+    }
+  }
+
+  address{
+     color: #53A1B3;
+     font-size: 0.86rem;
+      a{
+        color: inherit;
+      }
+  }
 }

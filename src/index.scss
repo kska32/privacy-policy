@@ -8,11 +8,34 @@ body {
 
   background-color: #222;
   color: #eee;
+
+
+  &::-webkit-scrollbar {
+    height: 16px !important;
+    width: 18px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+      background-color: #222;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      background: #333;
+      box-shadow: 0px 0px 0px 3px #222 inset;
+
+      &:hover{
+          background: #333;
+      }
+  }
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
 
 
