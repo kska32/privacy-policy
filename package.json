@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docs": "Xcopy build docs /Y/E"
+    "docs": "Xcopy build docs /K /D /H /Y"
   },
   "eslintConfig": {
     "extends": [
