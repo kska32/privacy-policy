@@ -15,6 +15,9 @@
 
   >p{
     color: #53A1B3;
+    >div{
+        position: relative;
+    }
     >div.title{
         font-weight: bold;
         font-size: 1.2rem;
